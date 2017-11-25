@@ -1,14 +1,9 @@
 {{ define "main" }}
-<header class="center fw6 f2 pt5 tk-jaf-lapture-display" style="max-width:56rem">
+<header class="center fw6 f3 ph2 pt4 tk-jaf-lapture-display   f2-ns pt5-ns" style="max-width:56rem">
 Song of the Guardians
 </header>
 
 <style>
-    .css-grid:after{
-        content: '';
-        display: block;
-        margin-left: 30%;
-    }
     .nested-p > p{margin-top:0}
     .css-arrow-link:hover::after{content:' »';}
     h2 button {
@@ -17,18 +12,26 @@ Song of the Guardians
 [aria-expanded="true"] .vert {
   display: none;
 }
+@media screen and (min-width:30em){
+    .cdss-grid:after{
+        content: '';
+        display: block;
+        margin-left: 48%;
+    }
+    .css-grid-item{width:48%}
+}
 </style>
-<main class="pb5">
-    <div class="center mt5 pt4" style="max-width:56rem">
+<main class="pb5 ph2   ph3-ns">
+    <div class="center mt5   pt4-l" style="max-width:56rem">
 
-        <h2 class="bb f2 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow">
+        <h2 class="bb f3 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow   f3-ns">
             Adventurers
 
         </h2>
         <div class="flex flex-wrap justify-between   css-grid"     hidden>
             {{ range where .Data.Pages "Section" "characters" }}
-                <div class="mb4" style="width:30%">
-                    <h3 class="f3 fw6 mb2 mt0 tk-jaf-lapture-display tracked-narrow">
+                <div class="mb4   w-48-ns   w-30-l   css-grid-item">
+                    <h3 class="f5 fw6 mb0 mt0 tk-jaf-lapture-display tracked-narrow   f3-ns mb2-ns">
                         <a class="link near-black   css-arrow-link" href="{{ .URL }}">{{.Title}}</a>
                     </h3>
                     <div class="f6 lh-copy nested-p">{{ .Content }}</div>
