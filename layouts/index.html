@@ -1,0 +1,70 @@
+{{ define "main" }}
+<header class="center fw6 f2 pt5 tk-jaf-lapture-display" style="max-width:56rem">
+Song of the Guardians
+</header>
+
+<style>
+    .css-grid:after{
+        content: '';
+        display: block;
+        margin-left: 30%;
+    }
+    .nested-p > p{margin-top:0}
+    .css-arrow-link:hover::after{content:' »';}
+    h2 button {
+  fall: inherit;
+}
+[aria-expanded="true"] .vert {
+  display: none;
+}
+</style>
+<main class="pb5">
+    <div class="center mt5 pt4" style="max-width:56rem">
+
+        <h2 class="bb f2 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow">
+            Adventurers
+
+        </h2>
+        <div class="flex flex-wrap justify-between   css-grid"     hidden>
+            {{ range where .Data.Pages "Section" "characters" }}
+                <div class="mb4" style="width:30%">
+                    <h3 class="f3 fw6 mb2 mt0 tk-jaf-lapture-display tracked-narrow">
+                        <a class="link near-black   css-arrow-link" href="{{ .URL }}">{{.Title}}</a>
+                    </h3>
+                    <div class="f6 lh-copy nested-p">{{ .Content }}</div>
+                </div>
+            {{end}}
+        </div>
+    </div>
+
+
+    <div class="center mt5" style="max-width:56rem">
+        <h2 class="dark-red bb f2 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow">Non-Player Characters</h2>
+        <div class="flex flex-wrap justify-between   css-grid">
+            {{ range where .Data.Pages "Section" "npc" }}
+                <div class="mb4" style="width:30%">
+                    <h3 class="f3 fw6 mb2 mt0 tk-jaf-lapture-display tracked-narrow">{{.Title}}</h3>
+                    <div class="f6 lh-copy nested-p tk-jaf-lapture">{{ .Content }}</div>
+                </div>
+            {{end}}
+        </div>
+    </div>
+
+    <div class="center mt5" style="max-width:56rem">
+        <h2 class="bb f2 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow">Locations</h2>
+        <div class="flex flex-wrap justify-between   css-grid">
+            {{ range where .Data.Pages "Section" "locations" }}
+                <div class="mb4" style="width:30%">
+                    <h3 class="f3 fw6 mb2 mt0 tk-jaf-lapture-display tracked-narrow">{{.Title}}</h3>
+                    <div class="f6 lh-copy nested-p tk-jaf-lapture">{{ .Content }}</div>
+                </div>
+            {{end}}
+        </div>
+    </div>
+</main>
+
+
+<footer>
+
+</footer>
+{{ end }}
