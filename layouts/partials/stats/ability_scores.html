@@ -1,0 +1,9 @@
+<div class="center flex flex-wrap justify-between mt5 tk-jaf-lapture   css-stats-grid">
+    {{ range .Params.ability_scores }}
+        <div class="ba mb3 tc w-30">
+            <p class="bb mb3 mt2 pb1 tracked-narrow">{{ .ability }}</p>
+            <p class="f3 mv0">{{ .score }}</p>
+            <p class="courier f5 mb2 pb0 mt1 tracked-narrow">{{ .modifier }}</p>
+        </div>
+    {{ end }}
+</div>

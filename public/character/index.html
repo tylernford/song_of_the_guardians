@@ -2,7 +2,7 @@
 <html class="" lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>{{ .Title }}</title>
+		<title>Character</title>
 
 		<link rel="canonical" href="" />
 		<meta name="description" content="" />
@@ -13,9 +13,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="../../css/tachyons.css" rel="stylesheet">
-		<!--[if IE]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		
 		<script src="https://use.typekit.net/hcf2qmb.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
         <style>
@@ -31,9 +29,9 @@
             background: linear-gradient(to bottom, rgba(211,100,131,1) 0%, rgba(82,140,163,1) 100%);
         }
         .bg-mello{
-            background: #c0392b;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to left, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to left, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #c0392b;   
+            background: -webkit-linear-gradient(to left, #8e44ad, #c0392b);   
+            background: linear-gradient(to left, #8e44ad, #c0392b);  
         }
         .bg-wide-matrix{
             background-image: linear-gradient(-45deg, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
@@ -46,22 +44,22 @@
         color:#4CA896
         }
         .rainbow:hover{
-            /* IE10+ */
+             
             background-image: -ms-linear-gradient(30%, #7BB689 0%, #4CA896 50%, #537EAD 100%);
 
-            /* Mozilla Firefox */
+             
             background-image: -moz-linear-gradient(30%, #7BB689 0%, #4CA896 50%, #537EAD 100%);
 
-            /* Opera */
+             
             background-image: -o-linear-gradient(30%, #7BB689 0%, #4CA896 50%, #537EAD 100%);
 
-            /* Webkit (Safari/Chrome 10) */
+             
             background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #7BB689), color-stop(50, #4CA896), color-stop(100, #537EAD));
 
-            /* Webkit (Chrome 11+) */
+             
             background-image: -webkit-linear-gradient(30%, #7BB689 0%, #4CA896 50%, #537EAD 100%);
 
-            /* W3C Markup */
+             
             background-image: linear-gradient(to bottom left, #7BB689 0%, #4CA896 50%, #537EAD 100%);
   color:transparent;
   -webkit-background-clip: text;
@@ -77,15 +75,55 @@
         <header class="center fw6 f3 pt4 tk-jaf-lapture-display   f2-ns pt5-ns   pt6-l
         flex justify-between items-center" style="max-width:56rem">
             <h1 class="f3   f2-ns mr3">
-                <a class="link near-black" href="{{ .Site.BaseURL }}">Song&nbsp;of&nbsp;the&nbsp;Guardians</a>
+                <a class="link near-black" href="http://localhost:1313/">Song&nbsp;of&nbsp;the&nbsp;Guardians</a>
             </h1>
             <div class="bg-near-black w-100" style="height:1px!important;"></div>
         </header>
 
-        {{ block "main" . }}{{ end }}
+        
+<header class="center fw4 f-5 mt5 tk-jaf-lapture-display" style="max-width:56rem">
+
+Thornir Falgrimsson
+</header>
+
+
+<main>
+    <div class="center flex justify-between mt5 tk-jaf-lapture" style="max-width:56rem">
+        <div class="courier f5 lh-title">
+        <p class="mb3 mt0">
+            Race <span class="nl1">&mdash;</span>
+            <br><span class="ii"> Mountain Dwarf</span>
+        </p>
+        <p class="mb3 mt0">
+            Class <span class="nl1">&mdash;</span>
+            <br><span class="ii"> Cleric</span>
+        </p>
+        <p class="mb3 mt0">
+            Alignment <span class="nl1">&mdash;</span>
+            <br><span class="ii"> Lawful Good</span>
+        </p>
+        <p class="mb3 mt0">
+            Height <span class="nl1">&mdash;</span>
+            <br><span class="ii"> 4'8"</span>
+        </p>
+        </div>
+        <div class="f4 lh-copy measure">
+            <p class="mb4 mt0">Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</p>
+            <p class="mb4 mt0">Chanting a song of glory, a dwarf swings his axe in wide swaths to cut through the ranks of orcs arrayed against him, shouting praise to the gods with every foe's fall.</p>
+            <p class="mb4 mt0">Calling down a curse upon the forces of undeath, a human lifts her holy symbol as light pours from it to drive back the zombies crowding in on her companions.</p>
+            <p class="mb4 mt0">Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine magic.</p>
+        </div>
+    </div>
+</main>
+
+
+<footer>
+
+</footer>
+
 
         <script>
-        /* https://inclusive-components.design/collapsible-sections */
+         
         (function() {
   const headings = document.querySelectorAll('h2')
 
