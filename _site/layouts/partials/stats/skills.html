@@ -1,0 +1,19 @@
+<div class="ba center mt3 tc">
+    <p class="bb mb3 mt2 pb1 tracked-narrow">Skills</p>
+    <div class="ph3 tc">
+        {{ if isset .Params "skills" }}
+            {{ range  first 17 .Params.skills }}
+                <div class="bb flex items-center mt2 pb2">
+                    <div class="ba {{ if .proficient }}bg-near-black{{ end }} br-100 h1 mv0 w1"></div>
+                    <p class="lh-solid ml3 mv0 tracked-narrow" style="padding-top:3px">{{ .score | markdownify }}</p>
+                </div>
+            {{ end }}
+            {{ range  first 1 (after 17 .Params.skills) }}
+                <div class="flex items-center mt2 pb3">
+                    <div class="ba {{ if .proficient }}bg-near-black{{ end }} br-100 h1 mv0 w1"></div>
+                    <p class="lh-solid ml3 mv0 tracked-narrow" style="padding-top:3px">{{ .score | markdownify }}</p>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>

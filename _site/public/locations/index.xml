@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Locations on Song of the Guardians</title>
+    <link>http://localhost:1313/locations/</link>
+    <description>Recent content in Locations on Song of the Guardians</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://localhost:1313/locations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>City</title>
+      <link>http://localhost:1313/locations/city/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/locations/city/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Underbelly</title>
+      <link>http://localhost:1313/locations/underbelly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/locations/underbelly/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+  </channel>
+</rss>

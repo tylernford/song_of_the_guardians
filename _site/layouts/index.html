@@ -1,0 +1,91 @@
+{{ define "main" }}
+
+
+<style>
+    .nested-p > p{margin-top:0}
+    .css-arrow-link:hover::after{content:' »';}
+    .nested-heading-arrow:hover > h3::after{content:' »';}
+    h2 button {
+  fall: inherit;
+}
+[aria-expanded="true"] .vert {
+  display: none;
+}
+@media screen and (min-width:34em){
+    .css-grid-item{width:48%}
+}
+@media screen and (min-width:54em){
+    .css-grid:after{
+        content: '';
+        display: block;
+        margin-left: 30%;
+    }
+    .css-grid-item{width:30%}
+}
+</style>
+<main class="pb5   ph3-ns">
+    <div class="center mt5   pt4-l" style="max-width:56rem">
+
+        <h2 class="bb f3 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow   f3-ns   f2-l">
+            Adventurers
+
+        </h2>
+        <div class="flex flex-wrap justify-between   css-grid">
+            {{ range where .Data.Pages "Section" "characters" }}
+                <div class="mb4   css-grid-item">
+                    <h3 class="f4 fw6 mb1 mt0 tk-jaf-lapture-display tracked-narrow   mb2-ns   f3-l">
+                        <a class="link near-black   css-arrow-link" href="{{ .URL }}">{{.Title}}</a>
+                    </h3>
+                    <div class="f6 lh-copy nested-p">{{ .Content }}</div>
+                </div>
+            {{end}}
+        </div>
+    </div>
+
+    <div class="center mt5" style="max-width:56rem">
+
+        <h2 class="bb f3 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow   f3-ns   f2-l">Non&ndash;Player Characters</h2>
+        <div class="flex flex-wrap justify-between   css-grid">
+            {{ range where .Data.Pages "Section" "npc" }}
+                <a class="db link mb4 near-black   css-grid-item bloop nested-heading-arrow" href="">
+                    <h3 class="f4 fw6 mb1 mt0 tk-jaf-lapture-display tracked-narrow   mb2-ns   f3-l">
+                        {{.Title}}
+                    </h3>
+                    <div class="f6 lh-copy nested-p">{{ .Content }}</div>
+                </a>
+            {{end}}
+        </div>
+    </div>
+
+<div class="dn">
+    <div class="center mt5" style="max-width:56rem">
+        <h2 class="dark-red bb f2 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow">Non-Player Characters</h2>
+        <div class="flex flex-wrap justify-between   css-grid">
+            {{ range where .Data.Pages "Section" "npc" }}
+                <div class="mb4" style="width:30%">
+                    <h3 class="f3 fw6 mb2 mt0 tk-jaf-lapture-display tracked-narrow">{{.Title}}</h3>
+                    <div class="f6 lh-copy nested-p tk-jaf-lapture">{{ .Content }}</div>
+                </div>
+            {{end}}
+        </div>
+    </div>
+
+    <div class="center mt5" style="max-width:56rem">
+        <h2 class="bb f2 fw6 mb4 pb1 tk-jaf-lapture-display tracked-narrow">Locations</h2>
+        <div class="flex flex-wrap justify-between   css-grid">
+            {{ range where .Data.Pages "Section" "locations" }}
+                <div class="mb4" style="width:30%">
+                    <h3 class="f3 fw6 mb2 mt0 tk-jaf-lapture-display tracked-narrow">{{.Title}}</h3>
+                    <div class="f6 lh-copy nested-p tk-jaf-lapture">{{ .Content }}</div>
+                </div>
+            {{end}}
+        </div>
+    </div>
+</div>
+</main>
+
+
+<footer>
+
+</footer>
+{{ end }}

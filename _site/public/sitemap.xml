@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/characters/bell/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/characters/buns/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/npc/brogan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/character/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/characters/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/locations/city/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/npc/dalan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/locations/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/npc/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/characters/periwinkle/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/characters/thornir/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/locations/underbelly/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/characters/usur/</loc>
+  </url>
+  
+</urlset>

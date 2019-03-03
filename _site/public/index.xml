@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Song of the Guardians</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Song of the Guardians</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bell Oak</title>
+      <link>http://localhost:1313/characters/bell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/characters/bell/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Bingbund Stundrun</title>
+      <link>http://localhost:1313/characters/buns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/characters/buns/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Brogan</title>
+      <link>http://localhost:1313/npc/brogan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/npc/brogan/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Character</title>
+      <link>http://localhost:1313/character/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/character/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>City</title>
+      <link>http://localhost:1313/locations/city/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/locations/city/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Dalan</title>
+      <link>http://localhost:1313/npc/dalan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/npc/dalan/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Periwinkle Deathstar</title>
+      <link>http://localhost:1313/characters/periwinkle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/characters/periwinkle/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Thornir Falgrimsson</title>
+      <link>http://localhost:1313/characters/thornir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/characters/thornir/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Underbelly</title>
+      <link>http://localhost:1313/locations/underbelly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/locations/underbelly/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+    <item>
+      <title>Ursur-Ha</title>
+      <link>http://localhost:1313/characters/usur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/characters/usur/</guid>
+      <description>Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.</description>
+    </item>
+    
+  </channel>
+</rss>

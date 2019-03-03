@@ -1,24 +1,11 @@
 {{ define "main" }}
-
-<div class="center f2 fw4 mt5 tk-jaf-lapture-display   f1-ns   f-5-l" style="max-width:56rem">
+<header class="center fw4 f-5 mt5 tk-jaf-lapture-display" style="max-width:56rem">
 
 Thornir Falgrimsson
-</div>
-
-<style>
-.css-stats-grid:after{
-    content: '';
-    display: block;
-    margin-left: 30%;
-}
-</style>
-<main class="center" style="max-width:56rem">
-    {{ partial "stats/ability_scores" . }}
-    {{ partial "stats/proficiency_bonus" . }}
-    {{ partial "stats/saving_throws" . }}
-    {{ partial "stats/skills" . }}
+</header>
 
 
+<main>
     <div class="center flex justify-between mt5 tk-jaf-lapture" style="max-width:56rem">
         <div class="courier f5 lh-title">
         <p class="mb3 mt0">
